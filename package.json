@@ -1,0 +1,25 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "A full-stack app that takes in results from users",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fitbez/Friend-Finder.git"
+  },
+  "author": "Fitsum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fitbez/Friend-Finder/issues"
+  },
+  "homepage": "https://github.com/fitbez/Friend-Finder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "path": "^0.12.7"
+  }
+}
