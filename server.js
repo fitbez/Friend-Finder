@@ -18,6 +18,7 @@ app.use(express.static('public')); //serve the static portions of the site (JS a
 // routers - passed the app object
 require('./app/routing/apiRoutes.js')(app);
 require('./app/routing/htmlRoutes.js')(app);
+require('./app/routing/server.js')(app);
 
 
 //listening notification
